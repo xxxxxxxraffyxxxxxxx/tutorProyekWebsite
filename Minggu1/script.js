@@ -1,4 +1,3 @@
-
 // Inisiasi inputan data
 let tombol_cek = document.getElementById('tombol');
 let k = 0
