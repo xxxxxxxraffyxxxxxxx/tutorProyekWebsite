@@ -1,0 +1,18 @@
+
+* {
+font-family: monospace; font-size: 30px;
+background-color: wheat;
+}
+/* Body */
+body {
+display: flex;
+text-align: center; justify-content: center; align-items: center;
+}
+#tombol {
+font-size: 30px;
+background-color: blue;
+}
+#angka {
+text-align: center;
+background-color: yellow;
+}
