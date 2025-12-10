@@ -1,0 +1,14 @@
+* {
+font-family: monospace; font-size: 30px;
+background-color: wheat;
+}
+body {
+text-align: center; justify-content: center; align-items: center;
+}
+#tombol {
+font-size: 30px;
+background-color: lightgreen;
+}
+#input {
+background-color: lightyellow;
+}
