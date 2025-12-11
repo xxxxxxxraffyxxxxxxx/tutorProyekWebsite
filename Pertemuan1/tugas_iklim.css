@@ -1,9 +1,46 @@
-* {
-font-family: monospace; font-size: 30px;
-background-color: wheat;
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 body {
-text-align: center; justify-content: center; align-items: center;
+    font-family: monospace;
+    text-align: justify;
+    background: wheat;
+    -webkit-text-size-adjust: 100%;
+}
+p {
+    font-size: 15px;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 20px;
+}
+.centered-container {
+  /* 1. Center the block on the page */
+  width: 50%; /* Give the container a width less than 100% */
+  min-width: 600px;
+  margin-left: auto; /* Equal left margin */
+  margin-right: auto; /* Equal right margin */
+  
+  /* 2. Ensure text inside the block is left-aligned */
+  text-align: justify; /* Default for most elements, but good practice to specify */
+  
+  padding: 10px;
+}
+@media (max-width: 600px) {
+    width: 50%;
+    img {
+        max-width: 200px;
+    }
+}
+img {
+    max-width: 500px;
 }
 #tombol {
 font-size: 30px;
