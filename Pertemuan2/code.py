@@ -7,7 +7,7 @@ import io
 import base64
 
 def get_matplotlib_plot():
-    database = dn.create_engine("sqlite:///data_hujan_fix.sqlite")
+    database = dn.create_engine("sqlite:///data_hujan.sqlite")
     conn = database.connect()
 
     data_mentah = pd.read_csv("data_gabungan_final.csv")

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>Hasil grafik</div>
+  <div><img id="ID_ELEMEN_HTML" alt=""></div>
+  <script>
+    fetch('/api/get-grafik')
+      .then(response => response.json())
+      .then(data => {
+        const elemen = document.getElementById('ID_ELEMEN_HTML');
+        elemen.src = "data:image/png;base64," + data.gambar_base64;
+    });
+  </script>
+</body>
+</html>
